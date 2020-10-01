@@ -6,13 +6,13 @@ const {
   avg,
 } = require('./src')
 
-describe('.min, should find min value in given array', () => {
+describe('.min, shounpm testld find min value in given array', () => {
  it('Should return 0 if no params passed, or array is empty', () => {
    assert.equal(min(), 0);
    assert.equal(min([]), 0);
  });
- it('Should return -38 for given array [2,-24,13,-11,16,-12,-16,24,13,-38,19,-16,19,3,2,32,0,-10,-19,-27]', () => {
-   const minValue = min([2,-24,13,-11,16,-12,-16,24,13,-38,19,-16,19,3,2,32,0,-10,-19,-27]);
+ it('Should return -38 for given array [2, -24, 13, -11, 16, -12, -16, 24, 13, -38, 19, -16, 19, 3, 2, 32, 0, -10, -19, -27]', () => {
+   const minValue = min([2,-24, 13,-11, 16,-12, -16, 24, 13, -38, 19, -16, 19, 3, 2, 32, 0, -10, -19, -27]);
 
    assert.equal(minValue, -38);
  });
